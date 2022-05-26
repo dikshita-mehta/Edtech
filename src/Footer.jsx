@@ -72,6 +72,11 @@ function Footer() {
             <li>
               <a href="#">Contract</a>
             </li>
+            <li></li>
+            <li></li>
+            <li>
+              <a href="#"><PhoneIcon/> 123456789</a>
+            </li>
           </ul>
         </li>
       </ul>
@@ -83,4 +88,3 @@ function Footer() {
 }
 
 export default Footer;
-
