@@ -1,7 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import edtech from "./images/edtech.jpg";
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import PhoneIcon from '@mui/icons-material/Phone';
 function Footer() {
   return (
     <div className="footer">
@@ -21,13 +24,13 @@ function Footer() {
           <h2>Social</h2>
           <ul class="box">
             <li>
-              <a href="#">Facebook</a>
+              <a href="#"><FacebookIcon/></a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a href="#"><TwitterIcon/></a>
             </li>
             <li>
-              <a href="#">Pinterest</a>
+              <a href="#"><PinterestIcon/></a>
             </li>
             <li>
               <a href="#">Dribbble</a>
