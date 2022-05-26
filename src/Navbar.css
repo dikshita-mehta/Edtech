@@ -20,7 +20,7 @@
   object-fit: contain;
   height: 2.5em;
   margin-right: 0.625em;
-  margin-left: 1.25px;
+  margin-left: 0.078125em;
 }
 .Navbar_left > h3 {
   margin-top: 0.625em;
@@ -36,4 +36,35 @@
 }
 .Navbar_right > h4 {
   margin-right: 1.25em;
+}
+
+@media screen and (max-width: 600px) {
+  .Navbar_left {display: none;}
+  .Navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1026px){
+  .Navbar_left{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Navbar.responsive {position: relative;}
+  .Navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .Navbar_left{
+    display:none;
+  }
+  .Navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
