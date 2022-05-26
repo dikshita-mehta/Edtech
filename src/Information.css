@@ -1,0 +1,14 @@
+.Information_top > h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.Information_top_info {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  line-height: 2;
+  margin-left: 10px;
+  font-family: Verdana, sans-serif;
+  
+}
