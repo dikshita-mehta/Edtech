@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import PhoneIcon from '@mui/icons-material/Phone';
+import MailIcon from '@mui/icons-material/Mail';
 function Footer() {
   return (
     <div className="footer">
@@ -33,7 +34,7 @@ function Footer() {
               <a href="#"><PinterestIcon/></a>
             </li>
             <li>
-              <a href="#">Dribbble</a>
+              <a href="#"><MailIcon/></a>
             </li>
           </ul>
         </li>
@@ -88,3 +89,4 @@ function Footer() {
 }
 
 export default Footer;
+
