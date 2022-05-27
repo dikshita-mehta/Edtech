@@ -1,11 +1,12 @@
 import React from "react";
 import "./Information.css";
-
+import edtech from "./images/edtech.jpg";
 function Information() {
   return (
-    <div className="Information">
+    <div>
+    <div className="Information" style={{marginTop:"-16%"}} >
       <div className="Information_top">
-        <h2>About</h2>
+        <h2>About Us</h2>
       </div>
       <div className="Information_top_info">
         <p>
@@ -53,6 +54,21 @@ function Information() {
         </p>
       </div>
     </div>
+    <div class="area" >
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+</div >
+</div>
   );
 }
 
