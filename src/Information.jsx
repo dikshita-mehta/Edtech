@@ -7,7 +7,7 @@ function Information() {
     <div>
       <div className="Information" style={{ marginTop: "-16%" }}>
         <div className="Information_top">
-          <h2>About Us</h2>
+          <h2><u>About Us</u></h2>
         </div>
         <div className="Information_top_info">
           <p>
@@ -23,7 +23,7 @@ function Information() {
           </p>
         </div>
         <div className="Information_top">
-          <h2>Mission</h2>
+          <h2><u>Mission</u></h2>
         </div>
         <div className="Information_top_info">
           <p>
@@ -39,7 +39,7 @@ function Information() {
           </p>
         </div>
         <div className="Information_top">
-          <h2>Vision</h2>
+          <h2><u>Vision</u></h2>
         </div>
         <div className="Information_top_info">
           <p>
