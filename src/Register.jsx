@@ -3,7 +3,7 @@ import "./Register.css";
 
 function Register() {
   return (
-    <div className="container">
+    <div className="contain">
       <div className="left">
         <div className="header">
           <h2 className="animation a1">Register</h2>
