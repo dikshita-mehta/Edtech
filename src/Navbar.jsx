@@ -2,6 +2,7 @@ import React from "react";
 import edtech from "./images/edtech.jpg";
 import "./Navbar.css";
 import HomeIcon from "@mui/icons-material/Home";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,12 +12,57 @@ function Navbar() {
         <h3>EVIRT EDTECH LIMITED</h3>
       </div>
       <div className="Navbar_right">
-       <a href="index.html"><HomeIcon /></a> 
-
-        <h4>VENDOR</h4>
-        <h4>MY BOOKINGS</h4>
-        <h4>LOGIN</h4>
-        <h4>CONTACT</h4>
+        <Link
+          style={{
+            color: "white",
+            textDecoration: "none",
+            marginRight: "1.25em",
+          }}
+          to="/"
+        >
+          <HomeIcon />
+        </Link>
+        <Link
+          style={{
+            color: "white",
+            textDecoration: "none",
+            paddingRight: 1.25,
+            marginRight: "1.25em",
+          }}
+          to="/Vendor"
+        >
+          <h4>VENDOR</h4>
+        </Link>
+        <Link
+          style={{
+            color: "white",
+            textDecoration: "none",
+            marginRight: "1.25em",
+          }}
+          to="/Mybooking"
+        >
+          <h4>MY BOOKINGS</h4>
+        </Link>
+        <Link
+          style={{
+            color: "white",
+            textDecoration: "none",
+            marginRight: "1.25em",
+          }}
+          to="/Login"
+        >
+          <h4>LOGIN</h4>
+        </Link>
+        <Link
+          style={{
+            color: "white",
+            textDecoration: "none",
+            marginRight: "1.25em",
+          }}
+          to="/Contact"
+        >
+          <h4>CONTACT</h4>
+        </Link>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@
   display: flex;
   background-color: black;
   justify-content: space-between;
-  border-bottom:  0.00625em solid lightgray;
+  border-bottom: 0.00625em solid lightgray;
   padding-top: 0.3125em;
   height: 3.5em;
   padding-bottom: 0.3125em;
@@ -39,28 +39,32 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Navbar_left {display: none;}
+  .Navbar_left {
+    display: none;
+  }
   .Navbar a.icon {
     float: right;
     display: block;
   }
 }
 
-@media screen and (max-width: 1026px){
-  .Navbar_left{
-    display:none;
+@media screen and (max-width: 1026px) {
+  .Navbar_left {
+    display: none;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .Navbar.responsive {position: relative;}
+  .Navbar.responsive {
+    position: relative;
+  }
   .Navbar.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .Navbar_left{
-    display:none;
+  .Navbar_left {
+    display: none;
   }
   .Navbar.responsive a {
     float: none;
