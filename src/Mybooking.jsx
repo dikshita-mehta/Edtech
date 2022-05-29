@@ -4,53 +4,23 @@ import Footer from "./Footer";
 import "./Mybooking.css";
 function Mybooking() {
   return (
-    <div className="mybooking" style={{backgroundColor:'#66a3ff'}}>
+    <div className="mybooking">
       <Navbar />
-      <div class="container">
-<div class="card">
-  <div class="face face1">
-    <div class="content">
-      <span class="stars"></span>
-      <h2 class="java">Title</h2>
-      <p class="java">Details about booking 1</p>
-    </div>
-  </div>
-  <div class="face face2">
-    <h2>Booking 1</h2>
-  </div>
-</div>
+      <div className="mybooking_info" style={{ backgroundColor: "#f7f8fa" }}>
+        <h1>MY BOOKING</h1>
+        <div className="mybooking_button">
+          <button className="booking_button1">ONGOING</button>
+          <button className="booking_button2">HISTORY</button>
+        </div>
+        <div className="mybooking_service">
+          <p>You don't have any active projects right now</p>
+          <button className="service" type="submit">
+            BOOK A SERVICE
+          </button>
+        </div>
+      </div>
 
-<div class="card">
-  <div class="face face1">
-    <div class="content">
-      <span class="stars"></span>
-      <h2 class="python">Title</h2>
-      <p class="python">Details about booking 2</p>
-    </div>
-  </div>
-  <div class="face face2">
-    <h2>Booking 2</h2>
-  </div>
-</div>
-
-<div class="card">
-  <div class="face face1">
-    <div class="content">
-      <span class="stars"></span>
-      <h2 class="cSharp">Title</h2>
-      <p class="cSharp">Details about booking 3</p>
-    </div>
-  </div>
-  <div class="face face2">
-    <h2>Booking 3</h2>
-  </div>
-</div>
-
-
-
-</div>
-
-      <Footer/>
+      <Footer />
     </div>
   );
 }
