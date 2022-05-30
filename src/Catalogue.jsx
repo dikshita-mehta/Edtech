@@ -15,7 +15,6 @@ function Catalogue() {
       <Navbar />
       <div className="wrapper">
         <div className="wrapper_heading">
-          <img src={experiment} alt="experiment" />
           <h1>Experiment details</h1>
         </div>
         <div className="drop">
@@ -175,6 +174,21 @@ function Catalogue() {
           </div>
         </div>
       </div>
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
       <Footer />
     </div>
   );
