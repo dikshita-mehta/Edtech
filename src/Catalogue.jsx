@@ -125,6 +125,7 @@ function Catalogue() {
 			</div>
 		</div>
  </div>
+ 
       <Footer />
     </div>
   );

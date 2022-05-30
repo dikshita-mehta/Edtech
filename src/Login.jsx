@@ -12,7 +12,7 @@ function Login() {
       </div>
 
       <form>
-        <Link to="/Register" style={{ textDecoration: "none" }}>
+        <Link to="/Registeras" style={{ textDecoration: "none" }}>
           <h3 className="Register_page">Don't have an account?<br/> Register here</h3>
         </Link>
         <h3>Login Here</h3>

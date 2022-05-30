@@ -7,6 +7,7 @@ import Mybooking from "./Mybooking";
 import Register from "./Register";
 import Catalogue from "./Catalogue";
 import Footer from "./Footer";
+import Registeras from "./Registeras";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {useState} from 'react';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Mybooking" element={<Mybooking />} /> 
           <Route path="/Catalogue" element={<Catalogue />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/Registeras" element={<Registeras />} />
         </Routes>
       </Router>
     </div>
