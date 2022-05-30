@@ -3,12 +3,14 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Login from "./Login";
-import Vendor from "./Vendor";
 import Mybooking from "./Mybooking";
 import Register from "./Register";
-
+import Catalogue from "./Catalogue";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {useState} from 'react';
+
+
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Contact" element={<Footer />} />
           <Route path="/Mybooking" element={<Mybooking />} /> 
-          <Route path="/Vendor" element={<Vendor />} />
+          <Route path="/Catalogue" element={<Catalogue />} />
           <Route path="/Register" element={<Register />} />
         </Routes>
       </Router>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Register.css";
-
+import Mybooking from "./Mybooking";
 function Register() {
   return (
     <div className="contain">
@@ -36,6 +36,7 @@ function Register() {
             placeholder="Password"
           />
           <button className="animation a6">SIGN UP</button>
+          
         </div>
       </div>
       <div className="right"></div>

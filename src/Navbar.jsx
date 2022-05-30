@@ -30,19 +30,9 @@ function Navbar() {
             paddingRight: 1.25,
             marginRight: "1.25em",
           }}
-          to="/Vendor"
+          to="/Catalogue"
         >
-          <h4>VENDOR</h4>
-        </Link>
-        <Link
-          style={{
-            color: "white",
-            textDecoration: "none",
-            marginRight: "1.25em",
-          }}
-          to="/Mybooking"
-        >
-          <h4>MY BOOKINGS</h4>
+          <h4>CATALOGUE</h4>
         </Link>
         <Link
           style={{
@@ -52,8 +42,9 @@ function Navbar() {
           }}
           to="/Login"
         >
-          <h4>LOGIN</h4>
+          <h4>MY BOOKINGS</h4>
         </Link>
+        
         <Link
           style={{
             color: "white",
