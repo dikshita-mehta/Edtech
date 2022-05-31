@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
-import GoogleIcon from '@mui/icons-material/Google';
+import GoogleIcon from "@mui/icons-material/Google";
 
 function Login() {
   return (
@@ -12,8 +12,18 @@ function Login() {
       </div>
 
       <form>
-        <Link to="/Registeras" style={{ textDecoration: "none" }}>
-          <h3 className="Register_page">Don't have an account?<br/> Register here</h3>
+        <h3>
+          <br />
+          <br /> Register here as :
+        </h3>
+        <Link to="/Register" style={{ textDecoration: "none" }}>
+          <h3 className="Register_page">Student</h3>
+        </Link>
+        <Link to="/Register" style={{ textDecoration: "none" }}>
+          <h3 className="Register_page">Vendor</h3>
+        </Link>
+        <Link to="/Register" style={{ textDecoration: "none" }}>
+          <h3 className="Register_page">Professional</h3>
         </Link>
         <h3>Login Here</h3>
 
@@ -22,11 +32,11 @@ function Login() {
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" className="password" />
-
+        <Link to="/Mybooking" style={{ textDecoration: "none" }}></Link>
         <button>Log In</button>
         <div className="social">
           <div className="go">
-            <GoogleIcon/> Google
+            <GoogleIcon /> Google
           </div>
           <div className="fb">
             <i className="fab fa-facebook"></i> Facebook

@@ -9,9 +9,8 @@ import Catalogue from "./Catalogue";
 import Footer from "./Footer";
 import Registeras from "./Registeras";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {useState} from 'react';
-
-
+import { useState } from "react";
+import Vendor from "./Vendor";
 
 function App() {
   return (
@@ -21,10 +20,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Contact" element={<Footer />} />
-          <Route path="/Mybooking" element={<Mybooking />} /> 
+          <Route path="/Mybooking" element={<Mybooking />} />
           <Route path="/Catalogue" element={<Catalogue />} />
           <Route path="/Register" element={<Register />} />
-          <Route path="/Registeras" element={<Registeras />} />
+          <Route path="/Vendor" element={<Vendor />} />
         </Routes>
       </Router>
     </div>

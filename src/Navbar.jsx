@@ -4,7 +4,6 @@ import "./Navbar.css";
 import HomeIcon from "@mui/icons-material/Home";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
   return (
     <div className="Navbar">
@@ -42,9 +41,9 @@ function Navbar() {
           }}
           to="/Login"
         >
-          <h4>MY BOOKINGS</h4>
+          <h4>Register</h4>
         </Link>
-        
+
         <Link
           style={{
             color: "white",

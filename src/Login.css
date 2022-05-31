@@ -10,7 +10,7 @@
 
 .Login {
   background-color: #080710;
-  height: 750px;
+  height: 880px;
 }
 .background {
   width: 430px;
@@ -34,10 +34,10 @@
 .shape:last-child {
   background: linear-gradient(to right, #ff512f, #f09819);
   right: -100px;
-  bottom: -80px;
+  bottom: -170px;
 }
 form {
-  height: 640px;
+  height: 880px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
