@@ -25,6 +25,7 @@ function Login() {
         <Link to="/Register" style={{ textDecoration: "none" }}>
           <h3 className="Register_page">Professional</h3>
         </Link>
+
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
@@ -32,8 +33,9 @@ function Login() {
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" className="password" />
-        <Link to="/Mybooking" style={{ textDecoration: "none" }}></Link>
-        <button>Log In</button>
+        <Link to="/Mybooking" style={{ textDecoration: "none" }}>
+          <button>Log In</button>
+        </Link>
         <div className="social">
           <div className="go">
             <GoogleIcon /> Google

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "./Mybooking.css";
+import { Link } from "react-router-dom";
 function Mybooking() {
   return (
     <div className="mybooking">
@@ -14,9 +15,11 @@ function Mybooking() {
         </div>
         <div className="mybooking_service">
           <p>You don't have any active projects right now</p>
-          <button className="service" type="submit">
-            BOOK A SERVICE
-          </button>
+          <Link to="/DateTime">
+            <button className="service" type="submit">
+              BOOK A SERVICE
+            </button>
+          </Link>
         </div>
       </div>
 

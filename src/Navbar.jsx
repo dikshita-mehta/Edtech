@@ -42,18 +42,8 @@ function Navbar() {
           to="/Login"
         >
           <h4>Register</h4>
-        </Link>
-
-        <Link
-          style={{
-            color: "white",
-            textDecoration: "none",
-            marginRight: "1.25em",
-          }}
-          to="/Contact"
-        >
-          <h4>CONTACT</h4>
-        </Link>
+        </Link>{" "}
+        <h4>CONTACT</h4>
       </div>
     </div>
   );

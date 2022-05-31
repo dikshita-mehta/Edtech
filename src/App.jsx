@@ -11,6 +11,8 @@ import Registeras from "./Registeras";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Vendor from "./Vendor";
+import Payment from "./Payment";
+import DateTime from "./DateTime";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/Catalogue" element={<Catalogue />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Vendor" element={<Vendor />} />
+          <Route path="/Payment" element={<Payment />} />
+          <Route path="/DateTime" element={<DateTime />} />
         </Routes>
       </Router>
     </div>
