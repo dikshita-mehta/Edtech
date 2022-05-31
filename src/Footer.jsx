@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
 import edtech from "./images/edtech.jpg";
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import PinterestIcon from '@mui/icons-material/Pinterest';
-import PhoneIcon from '@mui/icons-material/Phone';
-import MailIcon from '@mui/icons-material/Mail';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import PhoneIcon from "@mui/icons-material/Phone";
+import MailIcon from "@mui/icons-material/Mail";
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="Footer">
       <div class="l-footer">
         <h1>
           <img src={edtech} alt="" />
@@ -25,16 +25,24 @@ function Footer() {
           <h2>Social</h2>
           <ul class="box">
             <li>
-              <a href="#"><FacebookIcon/></a>
+              <a href="#">
+                <FacebookIcon />
+              </a>
             </li>
             <li>
-              <a href="#"><TwitterIcon/></a>
+              <a href="#">
+                <TwitterIcon />
+              </a>
             </li>
             <li>
-              <a href="#"><PinterestIcon/></a>
+              <a href="#">
+                <PinterestIcon />
+              </a>
             </li>
             <li>
-              <a href="#"><MailIcon/></a>
+              <a href="#">
+                <MailIcon />
+              </a>
             </li>
           </ul>
         </li>
@@ -76,7 +84,9 @@ function Footer() {
             <li></li>
             <li></li>
             <li>
-              <a href="#"><PhoneIcon/> 123456789</a>
+              <a href="#">
+                <PhoneIcon /> 123456789
+              </a>
             </li>
           </ul>
         </li>
@@ -89,4 +99,3 @@ function Footer() {
 }
 
 export default Footer;
-

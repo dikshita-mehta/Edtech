@@ -3,6 +3,9 @@ import edtech from "./images/edtech.jpg";
 import "./Navbar.css";
 import HomeIcon from "@mui/icons-material/Home";
 import { Link } from "react-router-dom";
+import { Link as Work } from "react-scroll";
+
+import { useRef } from "react";
 
 function Navbar() {
   return (
@@ -43,7 +46,9 @@ function Navbar() {
         >
           <h4>Register</h4>
         </Link>{" "}
-        <h4>CONTACT</h4>
+        <Work to="Footer">
+          <h4 style={{ cursor: "pointer" }}>CONTACT</h4>
+        </Work>
       </div>
     </div>
   );
