@@ -15,7 +15,7 @@ function Mybooking() {
         </div>
         <div className="mybooking_service">
           <p>You don't have any active projects right now</p>
-          <Link to="/DateTime">
+          <Link to="/Catalogue">
             <button className="service" type="submit">
               BOOK A SERVICE
             </button>

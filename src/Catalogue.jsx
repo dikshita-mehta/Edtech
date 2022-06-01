@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import experiment from "./images/experiment.png";
 import background from "./images/background.jpg";
 import chemistry from "./images/chemistry.jpg";
+import { Link } from "react-router-dom";
 import "./Information.css";
 
 import "./Catalogue.css";
@@ -34,7 +35,12 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price<br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link>
+                  </p>
+                  
                 </div>
               </div>
             </div>
@@ -53,7 +59,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price<br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>
@@ -72,7 +81,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price <br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>
@@ -91,7 +103,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price <br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>
@@ -110,7 +125,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price <br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>
@@ -129,7 +147,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price <br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>
@@ -148,7 +169,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price <br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>
@@ -167,7 +191,10 @@ function Catalogue() {
               </div>
               <div className="back">
                 <div className="inner">
-                  <p>Details and price</p>
+                  <p>Details and price <br/>
+                  <Link to="/Datetime" style={{ textDecoration: "none" }}>
+         Book Experiment
+        </Link></p>
                 </div>
               </div>
             </div>

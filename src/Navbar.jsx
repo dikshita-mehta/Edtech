@@ -44,7 +44,7 @@ function Navbar() {
           }}
           to="/Login"
         >
-          <h4>Register</h4>
+          <h4>REGISTER</h4>
         </Link>{" "}
         <Work to="Footer">
           <h4 style={{ cursor: "pointer" }}>CONTACT</h4>
